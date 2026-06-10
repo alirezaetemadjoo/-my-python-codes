@@ -16,6 +16,19 @@ p = PhotoImage(file = "calculator-3d-application-icon-png")
 icon = call.iconphoto(False,p)
 
 #-------------------defline----------------------
+def %():
+    
+
+
+
+
+
+
+
+
+
+
+
 #------------------frames------------------------
 
 f1 = Frame(call,width =400,height = 50,bg = "white")
