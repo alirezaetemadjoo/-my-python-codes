@@ -1,7 +1,10 @@
 #--------------------stater---------------------
+
 from tkinter import*
 import tkinter.messagebox
+
 #--------------------setting--------------------
+
 call = Tk()
 call.title("Calculator")
 call.geometry("350x450")
@@ -11,19 +14,83 @@ call.configure(bg = color)
 PhotoImage(file = "calculator-3d-application-icon-png")
 p = PhotoImage(file = "calculator-3d-application-icon-png")
 icon = call.iconphoto(False,p)
+
 #-------------------defline----------------------
 #------------------frames------------------------
+
 f1 = Frame(call,width =400,height = 50,bg = "white")
 f1.pack()
+
 f2 = Frame(call,width = 400,height = 50,bg = "white")
 f2.pack()
+
 f3 = Frame(call,width = 400,height = 50,bg ="white")
 f3.pack()
+
 f4 = Frame(call,width = 400,height = 50,bg = "white")
 f4.pack()
 
+f5 = Frame(call,width = 400,height= 50 ,bg = "white")
+f5,pack()
+
+f6 = Frame(call,width =400,height = 50,bg = "white")
+f6.pack()
+
+f7 = Frame(call,width =400,height = 50,bg = "white")
+f7.pack()
+
+f8 = Frame(call,width =400,height = 50,bg = "white")
+f8.pack()
+
+f9 = Frame(call,width =400,height = 50,bg = "white")
+f9.pack()
+
+f10 = Frame(call,width =400,height = 50,bg = "white")
+f10.pack()
+
+f11 = Frame(call,width =400,height = 50,bg = "white")
+f11.pack()
+
+f12 = Frame(call,width =400,height = 50,bg = "white")
+f12.pack()
+
+f13 = Frame(call,width =400,height = 50,bg = "white")
+f13.pack()
+
+f14 = Frame(call,width =400,height = 50,bg = "white")
+f14.pack()
+
+f15 = Frame(call,width =400,height = 50,bg = "white")
+f15.pack()
+
+f16 = Frame(call,width =400,height = 50,bg = "white")
+f16.pack()
+
+f17 = Frame(call,width =400,height = 50,bg = "white")
+f17.pack()
+
+f18 = Frame(call,width =400,height = 50,bg = "white")
+f18.pack()
+
+f19 = Frame(call,width =400,height = 50,bg = "white")
+f19.pack()
+
+f20 = Frame(call,width =400,height = 50,bg = "white")
+f20.pack()
+
+f21 = Frame(call,width =400,height = 50,bg = "white")
+f21.pack()
+f22 = Frame(call,width =400,height = 50,bg = "white")
+f22.pack()
+
+f23 = Frame(call,width =400,height = 50,bg = "white")
+f23.pack()
+
+f24 = Frame(call,width =400,height = 50,bg = "white")
+f24.pack()
 
 #------------------button------------------------
+
 btn1 = Button(f1 , text = "%" , width=30 , command =%)
 btn1.Pack(padx = 4 , pady = 4)
 
